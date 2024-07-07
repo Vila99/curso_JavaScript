@@ -56,3 +56,25 @@ var estudianteAuxiliar = {
 for (var key in estudianteAuxiliar) {
     console.log(key, estudianteAuxiliar[key]);
 }
+
+
+
+var pisos = 6;
+
+var multEspacio = pisos;
+
+var aster = "*";
+
+var espacio = " ";
+
+var multAster = 1;
+
+for (var i = 0; i < pisos; ++i) {
+
+    console.log(espacio.repeat(multEspacio) + aster.repeat(multAster));
+
+    multEspacio -= 1;
+
+    multAster += 2;
+
+}

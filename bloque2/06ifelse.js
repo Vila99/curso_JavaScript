@@ -1,9 +1,9 @@
 // control de flujo
 
 // condicionales
-var condicion = false;
+var condicion1 = false;
 var condicion2 = true;
-if (condicion && condicion2) {
+if (condicion1 && condicion2) {
     // hago esto si se cumple condicion
     console.log('Estoy en el if');
 } else {
@@ -41,3 +41,19 @@ if (condicion1) {
 } else {
     // Hago otra cosa distinta
 }
+
+
+// Ejercicio practico multiples
+
+var primer = 20;
+var segundo = 2;
+
+if (primer % segundo == 0) {
+
+    console.log(primer + ' es multiplo de ' + segundo)
+
+} else {
+
+    console.log(primer + ' no es multiplo de ' + segundo)
+
+};

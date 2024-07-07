@@ -26,3 +26,51 @@ switch (status) {
 }
 
 // Es mas legible y mas eficiente
+
+function daysInMonth(month){
+
+    switch (month){
+
+        case "enero":
+
+        case "marzo":
+
+        case "mayo":
+
+        case "julio":
+
+        case "agosto":
+
+        case "octubre":
+
+        case "diciembre":
+
+            console.log("El mes de " ,month ,  " tiene 31 dias");
+
+            break
+
+        case "febrero":
+
+            console.log("El mes de " ,month ,  " tiene 28/29 dias");
+
+            break
+
+        case "abril":
+
+        case "junio":
+
+        case "septiembre":
+
+        case "noviembre":
+
+            console.log("El mes de " ,month ,  " tiene 30 dias");
+
+            break
+
+    }
+
+       
+
+}
+
+daysInMonth("febrero")
